@@ -10,6 +10,7 @@ An interactive chatbot using ML and AI
 # Problem Statement:
 During the time of pandemic or during any kind of crisis, the most important thing that a person wants is an information. Information as what is the pandemic all about,
 how they can keep themselves safe in times of pandemic, if they gets afftected how they are going to get best possible help from different sources and agencies. So the most important point to inform and support a person at any time during his/her needs.
-# Technology Used
+# Advantage of using the technology:
+With the help of technology people can get information from the source without even directly interacting with them. They can get help,support and reduce the time gap between initiation of help and getting the help.
 # About the Project:
 This project deals with the development of an interactive chatbot which would help people get information during the time of pandemic like Covid19. Apart from giving necessary information the chatbot would also ensure to make the life of the people using the chatbot easier.
