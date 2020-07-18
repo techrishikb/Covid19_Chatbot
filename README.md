@@ -13,4 +13,5 @@ how they can keep themselves safe in times of pandemic, if they gets afftected h
 # Advantage of using the technology:
 With the help of technology people can get information from the source without even directly interacting with them. They can get help,support and reduce the time gap between initiation of help and getting the help.
 # About the Project:
-This project deals with the development of an interactive chatbot which would help people get information during the time of pandemic like Covid19. Apart from giving necessary information the chatbot would also ensure to make the life of the people using the chatbot easier. We would be using open source tools, open source machine learning frameworks, IBM cloud and other services to give our idea a life and help it to progress in real world.
+This project deals with the development of an interactive chatbot which would help people get information during the time of pandemic like Covid19. Apart from giving necessary information the chatbot would also ensure to make the life of the people using the chatbot easier. We would be using open source tools, open source machine learning frameworks, IBM cloud, Watson service and other services to give our idea a life and help it to progress in real world.
+# The architechture
