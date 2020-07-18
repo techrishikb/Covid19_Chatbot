@@ -1,0 +1,22 @@
+1.conda create --name myenv
+2.conda activate myenv
+3.pip install -r Req.txt
+4.pip install rasa
+5.rasa init
+6)rasa train
+7)rasa shell
+
+Running action file:
+rasa run actions
+
+slack integration:
+1)rasa init
+2)rasa run -m models --enable-api --cors "*" ---debug
+
+Exposing rasa server using NGROK in cmd:
+1)ngrok http 5005
+2)copying the http forwarding url in the web bar
+3)adding the slack webhook url and testing it(webhooks/slack/webhook)
+
+
+
