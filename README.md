@@ -17,5 +17,5 @@ This project deals with the development of an interactive chatbot which would he
 # The Architechtures:
 # Wireframes:
 # Flowchart:
-  
+  [Images/GIFs](#imagesgifs)
 # Business Objective:
