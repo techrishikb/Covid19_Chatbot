@@ -19,7 +19,11 @@ This project deals with the development of an interactive chatbot which would he
 # Flowchart:
   [Images/GIFs](#imagesgifs)
 # Business Objective:
-# Prerequisites
+# Prerequisites:
+pip install rasa
+dnf install wget
+wget http://www.example.com/install.sh
+bash install.sh
 # Installing
 # Running the tests
 # Break down into end to end test
