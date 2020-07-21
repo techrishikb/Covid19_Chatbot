@@ -20,10 +20,10 @@ This project deals with the development of an interactive chatbot which would he
   [Images/GIFs](#imagesgifs)
 # Business Objective:
 # Prerequisites:
-pip install rasa
-dnf install wget
-wget http://www.example.com/install.sh
-bash install.sh
+   pip install rasa
+   dnf install samplewget
+   wget http://www.sample.com/install.sh
+   bash installsample.sh
 # Installing
 # Running the tests
 # Break down into end to end test
