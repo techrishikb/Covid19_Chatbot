@@ -26,5 +26,14 @@ This project deals with the development of an interactive chatbot which would he
 4) bash installsample.sh
 
 # Installing
+
+A step to step guide for the development environment to be up and running.
+Steps for example:
+1) export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
+2) export EMAIL="jane@example.com"
+3) pip install npm
+4) samplefile.py
+Server running at http://0.0.0.1:5555/
+
 # Running the tests
 # Break down into end to end test
