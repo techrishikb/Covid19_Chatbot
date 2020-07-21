@@ -19,3 +19,7 @@ This project deals with the development of an interactive chatbot which would he
 # Flowchart:
   [Images/GIFs](#imagesgifs)
 # Business Objective:
+# Prerequisites
+# Installing
+# Running the tests
+# Break down into end to end test
