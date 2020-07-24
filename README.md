@@ -18,6 +18,26 @@ With the help of technology people can get information, answers to the queries, 
 # About the Project:
 This project deals with the development of an interactive chatbot which would help people optimize their wait time after booking an appointment in testing labs and hospital during the time of pandemic like Covid19. We would be using open source tools, open source machine learning frameworks, IBM cloud, Watson service to provide the user with a solution which would enable te user to book a virtual token and monitor its movement in the queue. It would help them to undestand when to start their journey so that their wait time is minimal.
 # The Architechtures:
+1) User starts The Covid 19 chatbot in Slack and ask a questions via text or speech.
+2) Slack App calls Watson Assistant hosted in IBM Cloud for text messages.
+3) Slack app integrated with Node Red would record the speech.wav file and calls the Watson Speech to Text Service Hosted in IBM Cloud
+4) Watson Speech to Text uses machine learning to decode the user’s speech.
+5) Watson Speech to Text replies with a transcript of the COVID-19 question, and Node-RED calls Watson Assistant hosted in IBM Cloud.
+6) Watson Assistant uses natural language understanding and machine learning to extract entities and intents of the user question.
+7) Watson Assistant invokes an OpenWhisk open source-powered IBM Cloud Function.
+8) IBM Cloud functions call IBM API Gateway to call the API's and fetch data.
+9) IBM Cloud Function calls the COVID-19 API to get stats.
+10)User calls Google Map API to get the location of nearby Testing labs and hospitals to book appointment
+11)IBM cloud functions calls Testing Labs Appointment Booking API to book appointment.
+12)IBM Cloud function calls the Queue management Data Store or API to book a virtual Token number for the patients.
+13)Watson Assistant replies to the Slack app. if it was a voice query then it sends the transcript to Watson text to Speech where the message is encoded in user language.
+14)And the user sees or listen to the response.
+15)Watson assistant get an update regarding the movement of virtual token number.
+16)The chatbot gives a continuous update to the user about the movement of the token number in the queue. The user can cancel the previous token number and generate a new one.
+17)IBM cloud functions calls Hospitals Appointment Booking API to book  doctors appointment.
+18)IBM Cloud function calls the Queue management Data Store or API to book a virtual Token number for the patients.
+19)Watson assistant get an update regarding the movement of virtual token number.
+20)User gets regular update regarding the position in the queue.
 # Wireframes:
 # Flowchart:
   [Images/GIFs](#imagesgifs)
