@@ -1,5 +1,7 @@
-# Covid19_Chatbot
+# CrisisPro
 An interactive chatbot using ML and AI frameworks.
+# Submission Track
+COVID19
 # Content:
 1) Short Description
 2) Long Description
