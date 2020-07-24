@@ -12,8 +12,7 @@ COVID19
 
 # Short Description
 # Problem Statement:
-During the time of pandemic or during any kind of crisis, the most important thing that a person wants is an information. Information as what is the pandemic all about,
-how they can keep themselves safe in times of pandemic, if they gets afftected how they are going to get best possible help from different sources and agencies. So the most important point to inform and support a person at any time during his/her needs.
+During the time of pandemic or during any kind of crisis, the most important thing that a person wants is to keep themselves safe at the time of pandemic. If they are suspected to have got the desease, then they need to get themselves to the testing labs or hospitals. The first thing which comes to their mind in this kind of situation is that they would try to spend minimum time at the place which might have positive patients present during the time of their visit.Optimizing the wait time and completing the task for which they had to visit the labs or hospital as soon as possible is the primary concern.
 # Advantage of using the technology:
 With the help of technology people can get information from the source without even directly interacting with them. They can get help,support and reduce the time gap between initiation of help and getting the help.
 # About the Project:
