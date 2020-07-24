@@ -1,6 +1,6 @@
 # CrisisPro
 An interactive chatbot using ML and AI frameworks.
-# Submission Track
+# Submission Track:
 COVID19
 # Content:
 1) Short Description
@@ -10,7 +10,7 @@ COVID19
 3) Wireframe
 4) Conclusion
 
-# Description of the Project:
+# Short Description
 # Problem Statement:
 During the time of pandemic or during any kind of crisis, the most important thing that a person wants is an information. Information as what is the pandemic all about,
 how they can keep themselves safe in times of pandemic, if they gets afftected how they are going to get best possible help from different sources and agencies. So the most important point to inform and support a person at any time during his/her needs.
