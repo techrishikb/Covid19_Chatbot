@@ -1,8 +1,10 @@
 # Covid19_Chatbot
 An interactive chatbot using ML and AI frameworks.
 # Content:
-1) Description of the Project.
-2) The Architechture
+1) Short Description
+2) Long Description
+3) The Architechture
+4) Demo Video
 3) Wireframe
 4) Conclusion
 
