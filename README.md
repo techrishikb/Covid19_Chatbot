@@ -1,5 +1,5 @@
 # Covid19_Chatbot
-An interactive chatbot using ML and AI
+An interactive chatbot using ML and AI frameworks.
 # Content:
 1) Description of the Project.
 2) The Architechture
