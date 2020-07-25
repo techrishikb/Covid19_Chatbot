@@ -20,25 +20,26 @@ This project deals with the development of an interactive chatbot which would he
 # The Architechtures:
 ![Alt Text](https://github.com/techrishikb/Covid19_Chatbot/blob/master/chatbot%20architecture.png)
 1) User starts The Covid 19 chatbot in Slack and ask a questions via text or speech.
-2) Slack App calls Watson Assistant hosted in IBM Cloud for text messages.
-3) Slack app integrated with Node Red would record the speech.wav file and calls the Watson Speech to Text Service Hosted in IBM Cloud
-4) Watson Speech to Text uses machine learning to decode the user’s speech.
-5) Watson Speech to Text replies with a transcript of the COVID-19 question, and Node-RED calls Watson Assistant hosted in IBM Cloud.
-6) Watson Assistant uses natural language understanding and machine learning to extract entities and intents of the user question.
-7) Watson Assistant invokes an OpenWhisk open source-powered IBM Cloud Function.
-8) IBM Cloud functions call IBM API Gateway to call the API's and fetch data.
+2) For text messages,chatbot in Slack calls RASA NLU hosted in IBM Cloud  to extract intent and entities.
+3) For voice message chatbot integrated with voice interface in slack would record the speech file and calls Mozilla deep speech for speech to text service.
+4) Mozilla deep speech uses machine learning algorithim to decode the user’s speech and sends a transcript to Rasa NLU
+5) Rasa NLU extracts intents and entities from the transcripted speech.
+6) Based on the intent RASA SDK calls mapped call back functions and passes entities to it.
+7) RASA SDK calls API's and data source to get information and stats related to different queries in .JSON format.
+8) API's response is returned back to RASA SDK.
 9) IBM Cloud Function calls the COVID-19 API to get stats.
-10) User calls Google Map API to get the location of nearby Testing labs and hospitals to book appointment
-11) IBM cloud functions calls Testing Labs Appointment Booking API to book appointment.
-12) IBM Cloud function calls the Queue management Data Store or API to book a virtual Token number for the patients.
-13) Watson Assistant replies to the Slack app. if it was a voice query then it sends the transcript to Watson text to Speech where the message is encoded in user language.
-14) And the user sees or listen to the response.
-15) Watson assistant get an update regarding the movement of virtual token number.
-16) The chatbot gives a continuous update to the user about the movement of the token number in the queue. The user can cancel the previous token number and generate a new one.
-17) IBM cloud functions calls Hospitals Appointment Booking API to book  doctors appointment.
-18) IBM Cloud function calls the Queue management Data Store or API to book a virtual Token number for the patients.
-19) Watson assistant get an update regarding the movement of virtual token number.
-20) User gets regular update regarding the position in the queue.
+10) RASA CORE processes the response as per natural language generations.
+11) RASA CORE sends the text transcript to convert text to speech using Mozilla.
+12) Mozilla text to speech sends it to chatbot in slack. 
+13) RASA CORE sends the text transcript to Chatbot in slack.
+14) And the user sees the response in html format or listen to the response.
+15) Bot can query for the location of the testing labs and hospitals for the user using the google map API.
+16) For queries related to appointment booking, RASA SDK calls functions to book an appointment in testing labs. It also gets connected to the queue data source to help user in generating a virtual token for the user.
+17) For queries related to appointment booking, RASA SDK calls functions to book an appointment in hospitals. It also gets connected to the queue data source to help user in generating a virtual token for the user.
+18) RASA SDK gets the response as the virtual token number and also on the reguler update of the movement of the token in the queue. 
+19) RASA SDK gend its response to RASA core which process it as per natual language generation.
+20) RASA Core sends the text transcript to slack rgarding the appointment, virtual token number, movement in the queue and the wait time for the users in the slack.
+21) User gets details of the appointment as well as the details of the token number generated. Also the reguler update on the movement of the token. This would help them to optimize the wait time.
 # Wireframes:
 # Flowchart:
   [Images/GIFs](#imagesgifs)
