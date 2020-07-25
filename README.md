@@ -18,7 +18,7 @@ With the help of technology people can get information, answers to the queries, 
 # About the Project:
 This project deals with the development of an interactive chatbot which would help people optimize their wait time after booking an appointment in testing labs and hospital during the time of pandemic like Covid19. We would be using open source tools, open source machine learning frameworks, IBM cloud, Watson service to provide the user with a solution which would enable te user to book a virtual token and monitor its movement in the queue. It would help them to undestand when to start their journey so that their wait time is minimal.
 # The Architechtures:
-![Alt Text](url)
+![Alt Text](https://github.com/techrishikb/Covid19_Chatbot/blob/master/chatbot%20architecture.png)
 1) User starts The Covid 19 chatbot in Slack and ask a questions via text or speech.
 2) Slack App calls Watson Assistant hosted in IBM Cloud for text messages.
 3) Slack app integrated with Node Red would record the speech.wav file and calls the Watson Speech to Text Service Hosted in IBM Cloud
