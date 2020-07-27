@@ -44,7 +44,7 @@ This project deals with the development of an interactive chatbot which would he
 # Flowchart:
   ![Alt Text](https://github.com/techrishikb/Covid19_Chatbot/blob/master/chatbot_flowchart.png)
 # Project Roadmap:
-  ![Alt Text](url)
+  ![Alt Text](https://github.com/techrishikb/Covid19_Chatbot/blob/master/roadmap.png)
 # Prerequisites:
 1) pip install rasa
 2) dnf install samplewget
