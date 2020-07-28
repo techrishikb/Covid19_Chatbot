@@ -1,5 +1,5 @@
 # CrisisPro
-An interactive chatbot using ML and AI frameworks.
+An interactive wait time optimizer by tracking queue in labs and hospitals.
 # Submission Track:
 COVID19
 # Content:
