@@ -40,7 +40,6 @@ This project deals with the development of an interactive chatbot which would he
 19) RASA SDK gend its response to RASA core which process it as per natual language generation.
 20) RASA Core sends the text transcript to slack rgarding the appointment, virtual token number, movement in the queue and the wait time for the users in the slack.
 21) User gets details of the appointment as well as the details of the token number generated. Also the reguler update on the movement of the token. This would help them to optimize the wait time.
-# Wireframes:
 # Flowchart:
   ![Alt Text](https://github.com/techrishikb/Covid19_Chatbot/blob/master/chatbot_flowchart.png)
 # Project Roadmap:
