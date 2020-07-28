@@ -53,9 +53,9 @@ We would be using RASA for natural language processing, python for coding, Mozil
 
 # Prerequisites:
 1) pip install rasa
-2) dnf install samplewget
-3) wget http://www.sample.com/install.sh
-4) bash installsample.sh
+2) pip install python
+3) download ngrok
+4) Integarte with Slack
 
 # Installing
 
