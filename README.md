@@ -57,16 +57,11 @@ We would be using RASA for natural language processing, python for coding, Mozil
 3) download ngrok
 4) Integarte with Slack
 
-# Installing
-
-A step to step guide for the development environment to be up and running.
-Steps for example:
-1) export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-2) export EMAIL="jane@example.com"
-3) pip install npm
-4) samplefile.py
-Server running at http://0.0.0.1:5555/
-
-# Running the tests
-# Break down into end to end test
 # Builtwith
+1) IBM CLOUDANT - NoSQL Database used
+2) IBM CLOUD FOUNDRY - Deployment of the app
+3) RASA - Natural language processor
+4) PYTHON - Building the functions.
+5) SLACK - Platform for integarting the chatbot
+6) NGROK - Connecting RASA server to Slack
+7) Mozilla Deep Speech - Sppech to text and text to speech conversion.
