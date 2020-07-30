@@ -45,6 +45,9 @@ This project deals with the development of an interactive chatbot which would he
 # Project Roadmap:
   ![Alt Text](https://github.com/techrishikb/Covid19_Chatbot/blob/master/roadmap.png)
   
+# Video Link:
+ [![Watch the video](https://www.youtube.com/watch?v=12uI4KqPLp8&t=37s)
+  
 # Long Description:
 CrisisPro is a chatbot which can interact with user in a mode and language of their choice. They can query for testing labs and hospital, book an appointment for the user in nearby testing labs or hospitals and track their position in queue of people in labs and hospitals and optimize the wait time. 
 In this pandemic situation people are always reluctant to visit any place filled with people and that also a place which is filled with patients. They always intend to spent a minimum time at these places and get their job done. So here is my chatbot which would try to meet the intention of the user.
