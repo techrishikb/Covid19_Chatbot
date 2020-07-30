@@ -46,7 +46,7 @@ This project deals with the development of an interactive chatbot which would he
   ![Alt Text](https://github.com/techrishikb/Covid19_Chatbot/blob/master/roadmap.png)
   
 # Video Link:
-  [![Alt Text](https://img.youtube.com/watch?v=12uI4KqPLp8&t=37s/0.jpg)](https://www.youtube.com/watch?v=12uI4KqPLp8&t=37s)
+  [![Watch the video](https://img.youtube.com/watch?v=12uI4KqPLp8&t=37s/0.jpg)](https://www.youtube.com/watch?v=12uI4KqPLp8&t=37s)
   
 # Long Description:
 CrisisPro is a chatbot which can interact with user in a mode and language of their choice. They can query for testing labs and hospital, book an appointment for the user in nearby testing labs or hospitals and track their position in queue of people in labs and hospitals and optimize the wait time. 
